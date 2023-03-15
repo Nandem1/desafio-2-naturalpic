@@ -9,7 +9,8 @@ import NavbarMain from './components/NavbarMain'
 function App() {
   const sourceAPI = '../public/fotos.json'
   const [data, setData] = useState([])
-  const globalContext = { data }
+  const [arrayFav, setArrayFav] = useState([])
+  const globalContext = { data, arrayFav, setArrayFav }
 
   const getData = async () => {
     const res = await fetch(sourceAPI)
