@@ -6,14 +6,12 @@
 |`npm run dev` | abre el puerto para visualizar la web |
 ---
 ### En progreso
-
 - [x] Estructura basica del proyecto
 - [x] Configuracion de useContext
 - [x] Configuracion de React Router
 - [x] Maquetado de Home
-- [ ] Maquetado de Favorites
-- [ ] Configuracion del boton de Likes y su respectivo funcionamiento
-
+- [x] Maquetado de Favorites
+- [x] Configuracion del boton de Likes y su respectivo funcionamiento
 ---
 
 

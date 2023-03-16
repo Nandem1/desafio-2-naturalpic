@@ -7,7 +7,7 @@ import Favorites from './views/Favorites'
 import NavbarMain from './components/NavbarMain'
 
 function App() {
-  const sourceAPI = '../public/fotos.json'
+  const sourceAPI = '../fotos.json'
   const [data, setData] = useState([])
   const [arrayFav, setArrayFav] = useState([])
   const globalContext = { data, arrayFav, setArrayFav }

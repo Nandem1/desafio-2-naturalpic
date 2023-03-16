@@ -7,3 +7,30 @@
 .heart-icon {
   cursor: pointer;
 }
+
+.liked {
+  color: red;
+  border: none;
+  animation-name: liked-animation;
+  animation-duration: 0.5s;
+}
+
+.not-liked {
+  color: black;
+  border: none;
+}
+
+.img-fav {
+  width: 330px;
+  height: 200px;
+  object-fit: cover;
+}
+
+@keyframes liked-animation {
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
