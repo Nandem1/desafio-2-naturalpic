@@ -12,7 +12,7 @@ function NavbarMain() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Link to="/" className='m-auto px-2 text-white text-decoration-none'>Home</Link>
+                        <Link to="/desafio-2-naturalpic/" className='m-auto px-2 text-white text-decoration-none'>Home</Link>
                         <Link to="/favorites" className='m-auto text-white text-decoration-none'>Favorites</Link>
                     </Nav>
                 </Navbar.Collapse>
