@@ -7,7 +7,7 @@ import Favorites from './views/Favorites'
 import NavbarMain from './components/NavbarMain'
 
 function App() {
-  const sourceAPI = '../fotos.json'
+  const sourceAPI = 'https://raw.githubusercontent.com/Nandem1/desafio-2-naturalpic/main/fotos.json'
   const [data, setData] = useState([])
   const [arrayFav, setArrayFav] = useState([])
   const globalContext = { data, arrayFav, setArrayFav }
@@ -28,7 +28,7 @@ function App() {
         <BrowserRouter>
           <NavbarMain />
           <Routes>
-            <Route path='/desafio-2-naturalpic/' element={<Home />} />
+            <Route path="/desafio-2-naturalpic/" element={<Home />} />
             <Route path='/favorites' element={<Favorites />} />
           </Routes>
         </BrowserRouter>
