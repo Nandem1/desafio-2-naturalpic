@@ -20,6 +20,10 @@
   border: none;
 }
 
+button {
+  background-color: white;
+}
+
 .img-fav {
   width: 330px;
   height: 200px;
