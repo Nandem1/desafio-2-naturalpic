@@ -28,7 +28,7 @@ function App() {
         <BrowserRouter>
           <NavbarMain />
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/desafio-2-naturalpic/' element={<Home />} />
             <Route path='/favorites' element={<Favorites />} />
           </Routes>
         </BrowserRouter>
